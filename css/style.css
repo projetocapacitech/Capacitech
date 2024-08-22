@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2461b7;
+    color: #0a264e;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px; /* Adicionado padding para dispositivos móveis */
+}
+
+header {
+    background-color: #0a264e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #57bcff;
+}
+
+main {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center; /* Centraliza o texto */
+    background-color: rgba(255, 255, 255, 0.932); /* Cor de fundo com transparência */
+    margin: 20px auto; /* Centraliza horizontalmente com margem vertical */
+    max-width: 800px; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    color:#0a264e;
+}
+
+main iframe {
+    width: 100%;
+    max-width: 900px; /* Altere esse valor para ajustar a largura máxima */
+    height: 800px; /* Ajuste a altura conforme necessário */
+    border: none; /* Remove a borda ao redor do iframe */
+    margin: 0 auto; /* Centraliza o iframe */
+    display: block; /* Garante que o iframe seja tratado como um bloco para facilitar a centralização */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do iframe */
+}
+
+h2 {
+    color: #0a264e;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #0a264e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
