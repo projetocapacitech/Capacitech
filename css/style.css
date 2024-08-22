@@ -60,7 +60,7 @@ main {
 
 main iframe {
     width: 100%;
-    max-width: 900px; /* Altere esse valor para ajustar a largura máxima */
+    max-width: 1500px; /* Altere esse valor para ajustar a largura máxima */
     height: 800px; /* Ajuste a altura conforme necessário */
     border: none; /* Remove a borda ao redor do iframe */
     margin: 0 auto; /* Centraliza o iframe */
