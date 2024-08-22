@@ -58,15 +58,15 @@ main {
     color:#0a264e;
 }
 
-main iframe {
+/*main iframe {
     width: 100%;
-    max-width: 1500px; /* Largura máxima ajustada para 1500px */
-    height: 800px; /* Altura definida para 800px */
-    margin: 0 auto; /* Centraliza o iframe */
-    display: block; /* Garante que o iframe seja tratado como um bloco */
-    border: none; /* Remove a borda ao redor do iframe */
-    overflow-y: auto; /* Permite o scrolling vertical */
-}
+    max-width: 1500px; /* Largura máxima ajustada para 1500px
+    height: 800px; /* Altura definida para 800px
+    margin: 0 auto; /* Centraliza o iframe
+    display: block; /* Garante que o iframe seja tratado como um bloco
+    border: none; /* Remove a borda ao redor do iframe
+    overflow-y: auto; /* Permite o scrolling vertical
+}*/
 
 h2 {
     color: #0a264e;
