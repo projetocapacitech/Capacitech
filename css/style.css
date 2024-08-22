@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 10px; /* Adicionado padding para dispositivos móveis */
+    padding: 10px; 
 }
 
 header {
@@ -50,22 +50,22 @@ nav ul li a:hover {
 main {
     flex: 1;
     padding: 40px 20px;
-    text-align: center; /* Centraliza o texto */
-    background-color: rgba(255, 255, 255, 0.932); /* Cor de fundo com transparência */
-    margin: 20px auto; /* Centraliza horizontalmente com margem vertical */
-    max-width: 800px; /* Largura máxima */
-    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.932); 
+    margin: 20px auto; 
+    max-width: 800px; 
+    border-radius: 10px; 
     color:#0a264e;
 }
 
 main iframe {
     width: 100%;
-    max-width: 100%; /* Garante que o iframe ocupe 100% da largura do contêiner */
-    height: 800px; /* A altura pode ser ajustada conforme necessário */
-    margin: 0 auto; /* Centraliza o iframe horizontalmente */
-    display: block; /* Garante que o iframe seja tratado como um bloco */
-    border: none; /* Remove a borda ao redor do iframe */
-    overflow-y: auto; /* Permite scrolling vertical dentro do iframe */
+    max-width: 100%; 
+    height: 800px;
+    margin: 0 auto; 
+    display: block;
+    border: none; 
+    overflow-y: auto;
 }
 
 h2 {
