@@ -72,6 +72,11 @@ h2 {
     margin-bottom: 15px;
 }
 
+.bordered-text {
+    border-left: 4px solid #0a264e; 
+    padding-left: 10px; 
+    margin-left: 20px; 
+
 footer {
     background-color: #0a264e;
     color: white;
