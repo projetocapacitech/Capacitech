@@ -18,10 +18,38 @@ body {
 }
 
 header {
-    background-color: #0a264e;
-    color: white;
+    position: relative;
+    color: #3774ca;
     padding: 20px;
     text-align: center;
+}
+
+header .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 3em;
+    margin: 0; 
+    padding: 10px 20px;
+    background-color: rgba(10, 38, 78, 0.7);
+    border-radius: 10px;
+}
+
+nav {
+    position: absolute; 
+    bottom: 20px; 
+    width: 100%; 
+    z-index: 2; 
+    background-color: rgba(10, 38, 78, 0.8); 
+    padding: 10px 0; 
 }
 
 nav ul {
@@ -36,7 +64,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #3774ca;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
