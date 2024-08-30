@@ -32,7 +32,6 @@ header .banner img {
 
 header h1 {
     position: absolute;
-    font-size: 10px;
     top: 40px;
     left: 50%;
     transform: translate(-50%);
